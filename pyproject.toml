@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lab1-histogram"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "lab1_histogram"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tqdm = "^4.64.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
